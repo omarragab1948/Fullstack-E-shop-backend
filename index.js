@@ -9,7 +9,7 @@ require("dotenv").config();
 const app = express();
 app.use(cookieParser());
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || "https://fullstack-e-shop.onrender.com";
 
 app.use(
   cors({
